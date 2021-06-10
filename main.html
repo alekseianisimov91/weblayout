@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+    <title>Форма 1 1280</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form-left">
+                <div class="form-left__heading">
+                    <span class="form-left__name-brand">Reduslim</span>
+                    <span class="form-left__name-brand">ECO</span>
+                </div>
+                <picture class="form-left__ellipse-6">
+                    <source srcset="/img/Ellipse-6-min.png" media="(max-width:320px)">
+                    <img src="/img/Ellipse-6.png" alt="Ellipse-6">
+                </picture>
+                <picture class="form-left__reduslim">
+                    <source srcset="/img/reduslim-min.png" media="(max-width:320px)">
+                    <img src="/img/reduslim.png" alt="reduslim">
+                </picture>
+                <img src="/img/Ellipse 7.png" alt="ellipse7" class="form-left__ellipse-7">
+            </div>
+
+            <div class="form-right-head">
+                <div class="form-right-head__heading-block">
+                    <h1 class="form-right-head__heading">Сделай шаг <br>к выздоровлению</h1>
+                </div>
+
+                <div class="form-right-field">
+                    <div class="form-right-field__container">
+                        <form action="#" autocomplete="on" method="POST" class="form-right-field__block-flex">
+                            <label class="form-right-field__name form-right-field__tel_label">Ваше <span class="form-right-field__name_green">имя</span></label>
+                            <input type="text" name="name" class="form-right-field__name-area" required>
+
+                            <label class="form-right-field__tel form-right-field__tel_label">Ваш <span class="form-right-field__name_green">телефон</span></label>
+                            <div class="form-right-field__tel-area">
+                                <input type="tel" name="tel" class="form-right-field__namber" required>
+                                <select name="country" id="demo-htmlselect" class="form-right-field__lang">
+                                    <option value="0" data-imagesrc="/img/ru.png">RU</option>
+                                    <option value="1" data-imagesrc="/img/uk.png">UK</option>
+                                </select>
+                            </div>
+                            <a href="#" class="form-right-field__order">Заказать <span class="form-right-field__arrow"></span></a>
+                        </form>
+                    </div>
+                    <div class="secure">
+                        <div class="secure__block">
+                            <span class="secure__block_name">Trusted<span class="secure__block_lock"></span>Secure</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.ddslick.min.js"></script>
+<script type="text/javascript">
+    $('#demo-htmlselect').ddslick({
+        // data: ddData,
+        defaultSelectedIndex: 2
+
+    });
+</script>
+
+</html>
